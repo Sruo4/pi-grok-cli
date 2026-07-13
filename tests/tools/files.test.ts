@@ -476,7 +476,7 @@ describe('file tools', () => {
         content: [{ type: 'text', text: 'edited' }],
         details: { replacements: 2 },
       }),
-    ).toBe('2 replacement(s)');
+    ).toBe('2 replacements');
     expect(
       renderToolResult(
         tools.get('LS'),
